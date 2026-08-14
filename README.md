@@ -8,7 +8,11 @@
 
 **Start simple, then customize TetoTV to fit the way you watch.**
 
-[**⬇️ Download Latest Release**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**📦 All Releases**](https://github.com/LindersOSX/TetoTV-Releases/releases) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ) • [**▶️ YouTube**](https://www.youtube.com/@TetoTVApp)
+> ✅ **This is the official stable TetoTV release repository.** These builds are recommended for normal use.
+>
+> Want to test newer features before they reach stable? **[View TetoTV Beta builds here →](https://github.com/LindersOSX/TetoTV)**
+
+[**⬇️ Download Latest Release**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**📦 All Releases**](https://github.com/LindersOSX/TetoTV-Releases/releases) • [**🧪 Beta Builds**](https://github.com/LindersOSX/TetoTV) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ) • [**▶️ YouTube**](https://www.youtube.com/@TetoTVApp)
 
 </div>
 
@@ -30,6 +34,22 @@
 - 🏠 **Private Jellyfin and Plex server support** *Coming soon*
 - 📺 **Remote-first Android TV / Fire TV interface**
 - 🔄 **Built-in GitHub updates, release history, and rollback**
+
+---
+
+## ✅ Official vs. Beta Builds
+
+### ✅ Official Stable — this repository
+
+This is the recommended TetoTV channel for normal use.
+
+**[Download the latest official TetoTV release →](https://github.com/LindersOSX/TetoTV-Releases/releases/latest)**
+
+### 🧪 Beta Builds
+
+Want to try newer changes before they reach the stable channel? The Beta repository contains testing builds that may include newer features but can be less thoroughly tested.
+
+**[View TetoTV Beta builds →](https://github.com/LindersOSX/TetoTV)**
 
 ---
 
@@ -326,6 +346,6 @@ TetoTV uses open-source and third-party components. Applicable licenses, notices
 
 **Your sources. Your library. Your player. Your way to watch.**
 
-[**⬇️ Download TetoTV**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**📦 Release History**](https://github.com/LindersOSX/TetoTV-Releases/releases) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ) • [**▶️ YouTube**](https://www.youtube.com/@TetoTVApp)
+[**⬇️ Download TetoTV**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**🧪 View Beta Builds**](https://github.com/LindersOSX/TetoTV) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ) • [**▶️ YouTube**](https://www.youtube.com/@TetoTVApp)
 
 </div>
