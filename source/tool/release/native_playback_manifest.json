@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "scope": "TetoTV Android ARM universal release",
+  "binaryArtifacts": [
+    {
+      "id": "libmpv-default-arm64-v8a",
+      "provider": "media-kit/libmpv-android-video-build",
+      "version": "v1.1.7",
+      "fileName": "default-arm64-v8a.jar",
+      "url": "https://github.com/media-kit/libmpv-android-video-build/releases/download/v1.1.7/default-arm64-v8a.jar",
+      "size": 5729978,
+      "sha256": "4363dfa5d3d415b91c1f16f6fb90c3fe59a77dfd3f9b824d2b24b492d6b09df9",
+      "upstreamMd5": "83df25b61193af8fa815e373143ac9af"
+    },
+    {
+      "id": "libmpv-default-armeabi-v7a",
+      "provider": "media-kit/libmpv-android-video-build",
+      "version": "v1.1.7",
+      "fileName": "default-armeabi-v7a.jar",
+      "url": "https://github.com/media-kit/libmpv-android-video-build/releases/download/v1.1.7/default-armeabi-v7a.jar",
+      "size": 5499353,
+      "sha256": "8ead114fc5a43348d89dc0eb8f41823e549b15115c29f73ee26973f973620995",
+      "upstreamMd5": "22e21526fefc0a2b8f17adbec9f57590"
+    },
+    {
+      "id": "libvlc-all",
+      "provider": "Maven Central org.videolan.android",
+      "version": "3.6.3",
+      "fileName": "libvlc-all-3.6.3.aar",
+      "url": "https://repo1.maven.org/maven2/org/videolan/android/libvlc-all/3.6.3/libvlc-all-3.6.3.aar",
+      "size": 86638145,
+      "sha256": "dc627487bfca9e20dec69db85288e5a0e68b04561daca8d37d9f7d2c9f5094b6"
+    }
+  ],
+  "sourceRoots": [
+    {
+      "id": "libmpv-android-video-build",
+      "repository": "https://github.com/media-kit/libmpv-android-video-build.git",
+      "revision": "fe8c3ac1a91c09aa6fb1deccbc833f1bafa54768",
+      "declaredTag": "v1.1.7",
+      "purpose": "build scripts, patches, default-flavor configuration and bundling"
+    },
+    {
+      "id": "media-kit-android-helper",
+      "repository": "https://github.com/media-kit/media-kit-android-helper.git",
+      "revision": "42054e5d479f39ccbb0ae604862e2bcaf59b74c2",
+      "purpose": "Android JNI helper included in each libmpv JAR"
+    },
+    {
+      "id": "mpv",
+      "repository": "https://github.com/mpv-player/mpv.git",
+      "revision": "78d43740f52db817d98bcf24fb30a76ab6fa13ff",
+      "purpose": "libmpv source selected by the v1.1.7 build scripts"
+    },
+    {
+      "id": "vlc-android",
+      "repository": "https://code.videolan.org/videolan/vlc-android.git",
+      "revision": "633911a9125a047355a67178ca2b42c4c75e988f",
+      "declaredTag": "libvlc-3.6.3",
+      "purpose": "official libVLC 3.6.3 Android release wrapper"
+    },
+    {
+      "id": "libvlcjni",
+      "repository": "https://code.videolan.org/videolan/libvlcjni.git",
+      "revision": "755eea54c2a0d282bbb88d3d448efbadea9a8340",
+      "purpose": "libVLC Android binding and build scripts selected by vlc-android"
+    },
+    {
+      "id": "vlc",
+      "repository": "https://code.videolan.org/videolan/vlc.git",
+      "revision": "4ce93430234330ab7d5ef15b6dfd864e75e150cb",
+      "purpose": "VLC 3.0.x source selected by libvlcjni"
+    }
+  ],
+  "libmpvDeclaredDependencyRefs": [
+    {"name": "Mbed TLS", "ref": "v3.4.0", "repository": "https://github.com/Mbed-TLS/mbedtls.git"},
+    {"name": "dav1d", "ref": "1.2.0", "repository": "https://code.videolan.org/videolan/dav1d.git"},
+    {"name": "libxml2", "ref": "v2.10.3", "repository": "https://gitlab.gnome.org/GNOME/libxml2.git"},
+    {"name": "FreeType", "ref": "VER-2-13-0", "repository": "https://gitlab.freedesktop.org/freetype/freetype.git"},
+    {"name": "FriBidi", "ref": "v1.0.12", "repository": "https://github.com/fribidi/fribidi.git"},
+    {"name": "HarfBuzz", "ref": "7.2.0", "repository": "https://github.com/harfbuzz/harfbuzz.git"},
+    {"name": "libass", "ref": "0.17.1", "repository": "https://github.com/libass/libass.git"},
+    {"name": "FFmpeg", "ref": "n6.0", "repository": "https://github.com/FFmpeg/FFmpeg.git"}
+  ],
+  "licenseAssets": [
+    {"path": "assets/legal/native/GPL-2.0.txt", "sha256": "7028be43b0ebd3635042ad122ddf310dcd079d2929102f4c957223a093c26695"},
+    {"path": "assets/legal/native/GPL-3.0.txt", "sha256": "7fe14716ed31cc71fc3bf9af293c368d464a853a70ea86e9995388f6b9e929e5"},
+    {"path": "assets/legal/native/LGPL-2.1.txt", "sha256": "734e901d33d7e5000b7e5260ccebef8591754615f2fbe7c36390a435a2741598"},
+    {"path": "assets/legal/native/LGPL-3.0.txt", "sha256": "dd983fe376f82d06b33a700497f437fdf3a78fd786eb961aa05b34adc5ca077c"},
+    {"path": "assets/legal/native/LIBMPV_ANDROID_BUILD_DEFAULT_LICENSE.txt", "sha256": "216523bfbc525c22e49988f3640c54fc40114673112893257956f605c953c3ab"},
+    {"path": "assets/legal/native/NATIVE_PLAYBACK_NOTICE.txt"}
+  ],
+  "knownProvenanceLimits": [
+    "The libmpv v1.1.7 build scripts identify several dependencies by mutable Git tag rather than immutable commit and do not record source-archive SHA-256 values.",
+    "The libmpv v1.1.7 download script also clones media_kit main without pinning it, although the release bundling script uses the separately pinned media-kit-android-helper revision.",
+    "The upstream records establish a practical source/rebuild path but do not establish that a fresh rebuild will be bit-for-bit identical to the published JARs.",
+    "The libVLC POM identifies LGPL-2.1, but the Maven AAR contains no license or corresponding-source offer file; those materials must accompany the TetoTV distribution."
+  ],
+  "releaseReadyWithoutStagedBundle": false
+}

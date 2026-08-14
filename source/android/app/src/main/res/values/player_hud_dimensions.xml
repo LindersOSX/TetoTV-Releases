@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compact is the safe default. The w720dp-h480dp overlay below is used
+         only when neither of TetoPlayerChrome's compact conditions applies. -->
+    <dimen name="tetotv_player_progress_bar_height">3dp</dimen>
+    <dimen name="tetotv_player_progress_touch_margin_top">1dp</dimen>
+    <dimen name="tetotv_player_time_footer_margin_top">-9dp</dimen>
+</resources>

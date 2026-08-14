@@ -1,0 +1,4 @@
+{
+  "AUTH_BROKER_BASE_URL": "https://your-real-broker.example",
+  "RELEASE_RESOLVER_BASE_URL": ""
+}

@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: tetotv-auth
+    runtime: node
+    plan: free
+    rootDir: broker
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: ANILIST_CLIENT_ID
+        sync: false
+      - key: ANILIST_CLIENT_SECRET
+        sync: false
+      - key: MAL_CLIENT_ID
+        sync: false
+      - key: MAL_CLIENT_SECRET
+        sync: false
+      - key: CRASH_REPORT_BOT_URL
+        sync: false
+      - key: CRASH_REPORT_SHARED_SECRET
+        sync: false

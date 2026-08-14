@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MPV source-of-truth geometry: 18dp to a 4dp read-only bar, then 9dp. -->
+    <dimen name="tetotv_player_progress_bar_height">4dp</dimen>
+    <dimen name="tetotv_player_progress_touch_margin_top">4dp</dimen>
+    <dimen name="tetotv_player_time_footer_margin_top">-5dp</dimen>
+</resources>
