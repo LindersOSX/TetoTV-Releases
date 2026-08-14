@@ -12,7 +12,7 @@
 >
 > Want to test newer features before they reach stable? **[View TetoTV Beta builds here →](https://github.com/LindersOSX/TetoTV)**
 
-[**⬇️ Download Latest Release**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**📦 All Releases**](https://github.com/LindersOSX/TetoTV-Releases/releases) • [**💻 View Source Code**](https://github.com/LindersOSX/TetoTV) • [**⬇️ Download Source**](https://github.com/LindersOSX/TetoTV/archive/refs/heads/main.zip) • [**🧪 Beta Builds**](https://github.com/LindersOSX/TetoTV) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ) • [**▶️ YouTube**](https://www.youtube.com/@TetoTVApp)
+[**⬇️ Download Latest Release**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**📦 All Releases**](https://github.com/LindersOSX/TetoTV-Releases/releases) • [**💻 View Stable Source**](https://github.com/LindersOSX/TetoTV-Releases/tree/main/source) • [**⬇️ Download Source**](https://github.com/LindersOSX/TetoTV-Releases/archive/refs/heads/main.zip) • [**🧪 Beta Builds**](https://github.com/LindersOSX/TetoTV) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ) • [**▶️ YouTube**](https://www.youtube.com/@TetoTVApp)
 
 </div>
 
@@ -53,12 +53,16 @@ Want to try newer changes before they reach the stable channel? The Beta reposit
 
 ---
 
-## 💻 Source Code & AI Assistance
+## 💻 Stable Source Code & AI Assistance
 
-TetoTV's source code is publicly available in the **[TetoTV source repository](https://github.com/LindersOSX/TetoTV)**. The official releases repository is kept focused on stable downloads, while the full source tree can be viewed online at any time.
+The **stable TetoTV source code is included directly in this repository** under the [`source/`](https://github.com/LindersOSX/TetoTV-Releases/tree/main/source) directory, so you can browse the actual files without leaving the official stable GitHub page.
 
-- **[Browse the source code →](https://github.com/LindersOSX/TetoTV)**
-- **[Download the current source code as a ZIP →](https://github.com/LindersOSX/TetoTV/archive/refs/heads/main.zip)**
+The current snapshot is pinned to source revision **`9fc090b807530da7da601b080f2eebdddf82bf6c`**, the source commit used for the TetoTV **1.0.2 / 2.0.5 playback and updater release**.
+
+- **[Browse the stable source code →](https://github.com/LindersOSX/TetoTV-Releases/tree/main/source)**
+- **[View source snapshot details →](https://github.com/LindersOSX/TetoTV-Releases/blob/main/source/SOURCE_SNAPSHOT.md)**
+- **[Download this repository, including the stable source →](https://github.com/LindersOSX/TetoTV-Releases/archive/refs/heads/main.zip)**
+- **[View the active Beta/source repository →](https://github.com/LindersOSX/TetoTV)**
 
 TetoTV has been developed with **assistance from AI tools, including OpenAI Codex**. AI has been used to assist with coding, debugging, review, and development tasks. AI-generated or AI-assisted changes are incorporated into the project as part of the normal development process.
 
@@ -357,6 +361,6 @@ TetoTV uses open-source and third-party components. Applicable licenses, notices
 
 **Your sources. Your library. Your player. Your way to watch.**
 
-[**⬇️ Download TetoTV**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**💻 Source Code**](https://github.com/LindersOSX/TetoTV) • [**⬇️ Download Source**](https://github.com/LindersOSX/TetoTV/archive/refs/heads/main.zip) • [**🧪 View Beta Builds**](https://github.com/LindersOSX/TetoTV) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ) • [**▶️ YouTube**](https://www.youtube.com/@TetoTVApp)
+[**⬇️ Download TetoTV**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**💻 Stable Source**](https://github.com/LindersOSX/TetoTV-Releases/tree/main/source) • [**⬇️ Download Source**](https://github.com/LindersOSX/TetoTV-Releases/archive/refs/heads/main.zip) • [**🧪 View Beta Builds**](https://github.com/LindersOSX/TetoTV) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ) • [**▶️ YouTube**](https://www.youtube.com/@TetoTVApp)
 
 </div>
