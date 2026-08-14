@@ -3,8 +3,6 @@ name: Publish stable source snapshot
 on:
   push:
     branches: [main]
-    paths:
-      - '.github/workflows/publish-stable-source.yml'
   workflow_dispatch:
     inputs:
       source_ref:
@@ -17,6 +15,7 @@ permissions:
 
 jobs:
   publish-source:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout stable releases repository
