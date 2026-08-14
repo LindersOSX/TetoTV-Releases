@@ -6,7 +6,7 @@
 
 **TetoTV** is designed for **Android TV, Fire TV, and Android devices**, bringing Debrid streams, web streaming sources, local media, tracking, Discord integration, advanced playback controls, and deep customization together in one TV-first interface.
 
-[**⬇️ Download Latest Release**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**📦 All Releases**](https://github.com/LindersOSX/TetoTV-Releases/releases) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ)
+[**⬇️ Download Latest Release**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**📦 All Releases**](https://github.com/LindersOSX/TetoTV-Releases/releases) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ) • [**▶️ YouTube**](https://www.youtube.com/@TetoTVApp)
 
 </div>
 
@@ -287,9 +287,10 @@ Found a bug or have an idea for TetoTV? When reporting an issue, include as much
 - Steps to reproduce it
 - Screenshots or videos when useful
 
-For support, announcements, feedback, and discussion:
+For support, announcements, feedback, demos, and updates:
 
 ### [💬 Join the official TetoTV Discord](https://discord.gg/X4pXyzdBpQ)
+### [▶️ Visit the official TetoTV YouTube channel](https://www.youtube.com/@TetoTVApp)
 
 ---
 
@@ -323,6 +324,6 @@ TetoTV uses open-source and third-party components. Applicable licenses, notices
 
 **Your sources. Your library. Your player. Your way to watch.**
 
-[**⬇️ Download TetoTV**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**📦 Release History**](https://github.com/LindersOSX/TetoTV-Releases/releases) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ)
+[**⬇️ Download TetoTV**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**📦 Release History**](https://github.com/LindersOSX/TetoTV-Releases/releases) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ) • [**▶️ YouTube**](https://www.youtube.com/@TetoTVApp)
 
 </div>
