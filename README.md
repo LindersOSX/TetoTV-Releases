@@ -2,9 +2,11 @@
 
 # 📺 TetoTV
 
-### A feature-rich anime streaming client built for the big screen.
+### Simple by design. Powerful when you need it.
 
-**TetoTV** is designed for **Android TV, Fire TV, and Android devices**, bringing Debrid streams, web streaming sources, local media, tracking, Discord integration, advanced playback controls, and deep customization together in one TV-first interface.
+**TetoTV puts simplicity first.** It is designed to make finding, tracking, and watching anime feel effortless on **Android TV, Fire TV, and Android devices** — while still giving you powerful options like Debrid and web streaming sources, intro/outro skipping, Discord Rich Presence, multiple playback engines, deep customization, and more when you want them.
+
+**Start simple, then customize TetoTV to fit the way you watch.**
 
 [**⬇️ Download Latest Release**](https://github.com/LindersOSX/TetoTV-Releases/releases/latest) • [**📦 All Releases**](https://github.com/LindersOSX/TetoTV-Releases/releases) • [**💬 Discord**](https://discord.gg/X4pXyzdBpQ) • [**▶️ YouTube**](https://www.youtube.com/@TetoTVApp)
 
