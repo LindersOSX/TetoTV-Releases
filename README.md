@@ -24,8 +24,8 @@
 - 🎬 **Media3, MPV, and VLC** playback engines
 - 🔄 **Automatic stream fallback** with playback-position recovery
 - 🗣️ **Persistent Dub/Sub preferences** and improved audio-track handling
-- 💾 **Local and USB playback**
-- 🏠 **Private Jellyfin and Plex server support**
+- 💾 **Local and USB playback** *Coming soon*
+- 🏠 **Private Jellyfin and Plex server support** *Coming soon*
 - 📺 **Remote-first Android TV / Fire TV interface**
 - 🔄 **Built-in GitHub updates, release history, and rollback**
 
