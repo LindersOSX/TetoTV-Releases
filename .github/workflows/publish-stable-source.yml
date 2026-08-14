@@ -1,0 +1,86 @@
+name: Publish stable source snapshot
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-stable-source.yml'
+  workflow_dispatch:
+    inputs:
+      source_ref:
+        description: 'TetoTV source commit/tag to publish'
+        required: false
+        default: '9fc090b807530da7da601b080f2eebdddf82bf6c'
+
+permissions:
+  contents: write
+
+jobs:
+  publish-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout stable releases repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve source revision
+        id: source
+        shell: bash
+        run: |
+          if [ -n "${{ github.event.inputs.source_ref }}" ]; then
+            echo "ref=${{ github.event.inputs.source_ref }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "ref=9fc090b807530da7da601b080f2eebdddf82bf6c" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout TetoTV source
+        uses: actions/checkout@v4
+        with:
+          repository: LindersOSX/TetoTV
+          ref: ${{ steps.source.outputs.ref }}
+          path: _tetotv_source
+          fetch-depth: 1
+
+      - name: Publish browsable source snapshot
+        shell: bash
+        run: |
+          rm -rf source
+          mkdir -p source
+          rsync -a \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='README.md' \
+            --exclude='android/app/libs/discord_partner_sdk.aar' \
+            _tetotv_source/ source/
+
+          cat > source/SOURCE_SNAPSHOT.md <<EOF
+          # TetoTV Stable Source Snapshot
+
+          This directory contains the browsable source snapshot associated with the current stable TetoTV 1.0.2 release.
+
+          **Source repository:** https://github.com/LindersOSX/TetoTV  
+          **Source revision:** `${{ steps.source.outputs.ref }}`  
+          **Stable releases:** https://github.com/LindersOSX/TetoTV-Releases/releases
+
+          The large third-party Discord Partner SDK AAR is intentionally not duplicated in this source snapshot. Third-party notices and required source distributions remain available with the official release assets.
+
+          ## AI Assistance Disclosure
+
+          TetoTV has been developed with assistance from AI tools, including OpenAI Codex. AI has been used to assist with coding, debugging, review, and development tasks. AI-generated or AI-assisted changes are incorporated into the project as part of the normal development process.
+          EOF
+
+          rm -rf _tetotv_source
+
+      - name: Commit source snapshot
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add source
+          if git diff --cached --quiet; then
+            echo "Source snapshot is already current."
+            exit 0
+          fi
+          git commit -m "Publish stable TetoTV source snapshot"
+          git push origin HEAD:main
