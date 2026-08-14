@@ -197,7 +197,7 @@ Keep browsing, tracking, and playback in one place.
 
 ---
 
-## 🏠 Local Media, Jellyfin & Plex
+## 🏠 Local Media, Jellyfin & Plex *Coming soon*
 
 TetoTV can also play media you already own or host yourself.
 
